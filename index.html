@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+<meta charset="utf-8">
+<title>どちらが古い？</title>
+
+<link rel = "stylesheet" href = "css/style.css">
+</head>
+
+<body>
+
+<section class = "container">
+   
+<p id = "test-title">歴史２択問題</p>
+
+<section id = "modal" class = "hidden">
+    <!-- <p>合格！！よくできました。</p> -->
+    <p id = "count">得点は10/10です。</p>
+    <a><img src="img/win.png"> </a>
+    <br>
+<button id = "close">問題選択へ</button>
+</section>
+
+<section id = "modal2" class = "hidden">
+    <img src="img/ng.png">
+    <br>
+    <p id = "answer">残念！！やりなおしです。</p>
+    <button id = "okay">OK</button>
+</section>
+
+<section id = "modal3" class = "hidden">
+ <p id = "isCorrected"></p>
+ <img src="img/ok.png"> 
+</section>
+
+
+
+<form>
+        <select name="selectbox" id ="selectbox">
+            <option value="">--問題選択--</option>
+            <option value="old-1">その１</option>
+            <option value="old-2">その２</option>
+            <option value="old-3">その３</option>
+            <option value="old-4">その４</option>
+            <option value="old-5">その５</option>
+            <option value="old-6">その６</option>
+            <option value="old-7">その７</option>
+            <option value="old-8">その８</option>
+            <option value="old-9">その９</option>
+            <option value="old-10">その10</option>
+            <option value="old-11">その11</option>
+            <option value="old-12">その12</option>
+            <option value="old-13">その13</option>
+            <option value="old-14">その14</option>
+            <option value="old-15">その15</option>
+            <option value="old-16">その16</option>
+            <option value="old-17">その17</option>
+            <option value="old-18">その18</option>
+            <option value="old-19">その19</option>
+            <option value="old-20">その20</option>
+            <option value="old-21">その21</option>
+            <option value="old-22">その22</option>
+            <option value="old-23">その23</option>
+            <option value="old-24">その24</option>
+        </select>
+
+        <input id="reset"  type="button" value="リセット" onclick="ClickR();"/>
+    </form>
+   
+<br>   
+<br>   
+    <div id ="Qnum">  </div> 
+    <p id ="question"> 問題を選択してください。</p>
+    <ul id = "choice1" class = "choices"></ul>   
+
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+
+<script src = "js/main.js"></script>
+</body>
+
+</html>
