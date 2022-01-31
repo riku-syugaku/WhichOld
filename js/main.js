@@ -538,7 +538,7 @@ else if(selectbox.value === "old-21"){  QuizBuild = old1; a=400; end = 419;  Qui
 
               if(a > end-1 ){
                 modal.classList.remove('hidden');
-                count.textContent = ` 得点は ${cn} /${20} です。`;
+                count.textContent = ` 得点は ${cn} /20 です。`;
     
                 close.addEventListener('click',()=>{
                   location.reload();
