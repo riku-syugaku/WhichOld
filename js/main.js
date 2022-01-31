@@ -524,7 +524,6 @@ else if(selectbox.value === "old-20"){  QuizBuild = old1; a=380; end = 399;  Qui
 else if(selectbox.value === "old-21"){  QuizBuild = old1; a=400; end = 419;  Quizset();  }
 else if(selectbox.value === "old-22"){  QuizBuild = old1; a=420; end = 439;  Quizset();  }
 else if(selectbox.value === "old-23"){  QuizBuild = old1; a=440; end = 459;  Quizset();  }
-else if(selectbox.value === "old-24"){  QuizBuild = old1; a=460; end = 479;  Quizset();  }
 
   else{
     location.reload();
